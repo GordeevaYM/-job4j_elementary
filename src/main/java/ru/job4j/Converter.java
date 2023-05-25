@@ -8,18 +8,18 @@ public class Converter {
     }
 
     public static float rubleToDollar(float value) {
-        float rsl1 = value / 60;
-        return rsl1;
+        float rsl = value / 60;
+        return rsl;
     }
 
     public static float dollarToRuble(float value) {
-        float rsl2 = value * 60;
-        return rsl2;
+        float rsl = value * 60;
+        return rsl;
     }
 
     public static float euroToRuble(float value) {
-        float rsl3 = value * 70;
-        return rsl3;
+        float rsl = value * 70;
+        return rsl;
     }
 
     public static void main(String[] args) {
